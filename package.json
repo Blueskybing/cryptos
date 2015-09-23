@@ -1,0 +1,23 @@
+{
+  "name": "crypto-utils",
+  "version": "1.0.0",
+  "description": "crypto加密解密模块工具类",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blueskybing/crypto-utils.git"
+  },
+  "keywords": [
+    "crypto",
+    "crypto-utils"
+  ],
+  "author": "Blueskybing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blueskybing/crypto-utils/issues"
+  },
+  "homepage": "https://github.com/Blueskybing/crypto-utils"
+}
