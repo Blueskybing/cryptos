@@ -1,1 +1,1 @@
-module.exports = require("./lib/crypto_utils.js");
+module.exports = require("./lib/cryptos.js");
