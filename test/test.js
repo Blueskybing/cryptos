@@ -57,3 +57,15 @@ console.log('RSA 加密：' + encrypt_str);
 
 var data = cryptos.RSADecrypt(encrypt_str, private_key, {});
 console.log('RSA 解密：' + data);
+
+var encrypt_str = cryptos.RabbitEncrypt(data, key);
+console.log('Rabbit 加密：' + encrypt_str);
+
+var data = cryptos.RabbitDecrypt(encrypt_str, key);
+console.log('Rabbit 解密：' + data);
+
+var encrypt_str = cryptos.MARC4Encrypt(data, key);
+console.log('RC4 加密：' + encrypt_str);
+
+var data = cryptos.MARC4Decrypt(encrypt_str, key);
+console.log('RC4 解密：' + data);

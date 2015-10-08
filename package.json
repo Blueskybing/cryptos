@@ -1,6 +1,6 @@
 {
   "name": "cryptos",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "crypto加密解密模块工具类",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Blueskybing/cryptos",
   "dependencies": {
-    "node-rsa": "^0.2.25"
+    "node-rsa": "^0.2.25",
+    "cryptojs": "~2.5.3"
   }
 }

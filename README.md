@@ -33,3 +33,16 @@ RSA 加密
 
 10.cryptos.RSADecrypt(data, key_pem, options)
 RSA 解密
+
+11.cryptos.RabbitEncrypt(data, key)
+Rabbit 加密
+
+12.cryptos.RabbitDecrypt(encrypt_str, key)
+Rabbit 解密
+
+13.cryptos.MARC4Encrypt(data, key)
+RC4 加密
+
+14.cryptos.MARC4Decrypt(encrypt_str, key)
+RC4 解密
+
