@@ -1,6 +1,6 @@
 {
   "name": "cryptos",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "crypto加密解密模块工具类",
   "main": "index.js",
   "scripts": {
